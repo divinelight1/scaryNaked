@@ -1,0 +1,15 @@
+{
+  "name": "scaryNaked",
+  "version": "0.0.1",
+  "description": "totally naked wp theme starter without any framework",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~1.2.0",
+    "grunt-contrib-sass": "latest",
+    "grunt-postcss": "latest",
+    "autoprefixer": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}
