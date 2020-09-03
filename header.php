@@ -13,7 +13,7 @@
 
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <title></title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- this file is used just if you have some custom css / normally all style files are enqueued in functions.php -->
