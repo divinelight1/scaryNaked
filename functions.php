@@ -30,7 +30,7 @@
 
  /*
  * Initialize wp menus
- * Here i use two wp_nav_menu()'s you can add as much as u want, read more about menus on
+ * Here i use three wp_nav_menu()'s you can add as much as u want, read more about menus on
  *
  * @link https://developer.wordpress.org/reference/functions/wp_nav_menu/
  */
@@ -68,6 +68,7 @@ add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 */
 add_filter( 'use_block_editor_for_post', '__return_false' );
 
+
 //add support for uploading svg in Media
 function add_file_types_to_uploads($file_types){
     $new_filetypes = array();
@@ -76,6 +77,7 @@ function add_file_types_to_uploads($file_types){
     return $file_types;
     }
 add_filter('upload_mimes', 'add_file_types_to_uploads');
+
 
 // extern files includings
 // acf setup file
